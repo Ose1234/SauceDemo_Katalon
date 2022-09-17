@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/GitHub My account Page/h2_Recent activity",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027/\u0027])[5]/following::h2[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[(text() \u003d \u0027Recent activity\u0027 or . \u003d \u0027Recent activity\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/GitHub My account Page/h2_Recent activity_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Automation SignUp_Page/input_Mr_id_gender",
+      "brokenLocator": "//input[@id\u003d\u0027id_gender1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Automation SignUp_Page/input_Mr_id_gender_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Automation SignUp_Page/input__customer_firstname",
+      "brokenLocator": "//input[@id\u003d\u0027customer_firstname\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Automation SignUp_Page/input__customer_firstname_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/E-commerce Automation Website/Automation SignUp_Page/h1_Create an account",
+      "brokenLocator": "//div[@id\u003d\u0027noSlide\u0027]/h1",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027\u003e\u0027])[1]/following::h1[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/E-commerce Automation Website/Automation SignUp_Page/h1_Create an account_neighbor.png"
+    }
+  ]
+}
